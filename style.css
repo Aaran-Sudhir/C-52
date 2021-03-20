@@ -1,0 +1,74 @@
+h1{
+    color:rgb(0, 255, 21);
+    margin-left : 30px;
+    padding : 20px;
+}
+
+.menu * {
+margin-top : 20px;
+padding : 30px
+}
+
+.header *{
+    border : solid;
+    padding : 20px;
+}
+.header{
+    background-color : rgb(228, 228, 228);
+    display : flex;
+    justify-content:space-between;
+    
+}
+.grid{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    flex-direction:row;
+    flex-shrink:5;
+}
+.Social-links{
+    display : flex; 
+    flex-wrap : wrap;
+    justify-content: center;
+    margin : 300px;
+}
+body{
+    background-color : rgba(165, 165, 165, 0.425)
+}
+
+a:link{
+    color : rgb(255, 0, 0);
+}
+
+a:visited{
+    color : rgb(20, 44, 20)
+}
+
+.item{
+    position:relative;
+}
+
+.item p{
+    position : absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    opacity:0;
+}
+
+.item:hover p{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.3;
+}
+
+.sitedescription{
+    display:flex;
+    flex-wrap:wrap-reverse;
+    flex-direction:inherit;
+    justify-content:center;
+    flex-shrink:3;
+    
+}
